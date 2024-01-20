@@ -14,5 +14,5 @@ import { HomeComponent } from './home/home.component'
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'first-angular-app';
+  title = 'homes';
 }

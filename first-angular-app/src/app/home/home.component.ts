@@ -24,6 +24,7 @@ import { HousingLocation } from '../housinglocation'
   `,
   styleUrl: './home.component.css'
 })
+  
 export class HomeComponent {
   readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa'
 
