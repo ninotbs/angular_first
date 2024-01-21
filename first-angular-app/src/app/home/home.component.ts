@@ -12,20 +12,7 @@ import { HousingService } from '../housing.service'
     CommonModule,
     HousingLocationComponent
   ],
-  template: `
-  <section>
-    <form>
-      <input type="text" placeholder="Filter by city">
-      <button class="primary" type="button">Search</button>
-    </form>
-  </section>
-  <section class="results">
-    <app-housing-location
-      *ngFor="let housingLocation of housingLocationList"
-      [housingLocation]="housingLocation">
-    </app-housing-location>
-  </section>
-  `,
+  template: './home.component.html',
   styleUrl: './home.component.css'
 })
   
