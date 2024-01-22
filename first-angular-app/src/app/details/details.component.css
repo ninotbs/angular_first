@@ -47,12 +47,14 @@ li {
 label, input {
   display: block;
 }
+
 label {
   color: var(--secondary-color);
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12pt;
 }
+
 input {
   font-size: 16pt;
   margin-bottom: 15px;
