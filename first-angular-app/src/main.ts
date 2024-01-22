@@ -7,7 +7,7 @@ import routeConfig from './app/routes'
 bootstrapApplication(AppComponent,
   {
     providers: [
-      // provideProtractorTestingSupport(),
+      // rovideProtractorTestingSupport(),
       provideRouter(routeConfig)
     ]
   }
