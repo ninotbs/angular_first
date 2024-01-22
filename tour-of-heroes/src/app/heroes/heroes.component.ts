@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms'
 
 import { Hero } from '../hero'
 import { HEROES } from '../mock-heroes'
+import { HeroDetailComponent } from '../hero-detail/hero-detail.component'
 
 @Component({
   selector: 'app-heroes',
@@ -12,7 +13,8 @@ import { HEROES } from '../mock-heroes'
     NgFor,
     NgIf,
     UpperCasePipe,
-    FormsModule
+    FormsModule,
+    HeroDetailComponent
   ],
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.css'
